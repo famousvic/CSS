@@ -1,0 +1,159 @@
+* {
+  padding: 0px;
+  margin: 0;
+  /*Entire view port*/
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/*p.card{
+  text-align: center;
+}
+body {
+  font-size: 30px;
+}
+h2,
+p {
+  color: blue;
+}
+/*:root {
+  /* set things like variable, default size */
+/*font-size: 25px;*/
+/*Variable*/
+/*--primary-color: blue;*/
+/*.card h2,
+.card p {
+  color: red;
+}
+.mcard h2 {
+  color: red;
+  border: none;
+}*/
+
+/*h1 {
+  height: 100px;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding: 10px 0;
+  margin: 10px 0;
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+  background-color: blue;
+  text-align: center;
+  background-color: rgb(255, 255, 0);
+  opacity: 80%;
+}
+.model div {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  border: 2px solid red;
+}
+.model {
+  border: 3px solid black;
+  border-style: dotted;
+  padding: 20px 0;
+  margin: 10px;
+}
+.model div:nth-child(1) {
+  margin-top: 0;
+  margin-right: 200px;
+  margin-bottom: 0;
+  margin-left: 100px;
+}*/
+/* DRY principle - Don't repeat yourselves*/
+.header,
+.nav {
+  width: 100%;
+}
+.nav {
+  text-align: center;
+}
+.navlink {
+  text-decoration: none;
+  color: unset;
+}
+.navlink p {
+  display: inline-block;
+  padding: 10px 15px;
+  color: lightblue;
+}
+.res {
+  border: 3px solid red;
+  height: 300px;
+  width: 100%;
+  max-width: 1000px;
+  min-width: 500px;
+  margin: 20px 0px;
+}
+/*card styling*/
+.card {
+  width: 300px;
+  padding: 15px;
+  display: inline-block;
+  background-color: white;
+  margin: 30px 50px;
+  box-shadow: 4px 4px 10px 5px rgba(255, 0, 0, 0.23);
+}
+.card figure {
+  width: 100%;
+  height: 200px;
+}
+.card figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.card1 figure img{
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+.title {
+  margin: 10px 0px;
+}
+
+.title p {
+  float: right;
+}
+.title h2 {
+  display: inline-block;
+  font-size: 18px;
+}
+.title p span {
+  text-decoration: line-through;
+  color: lightcoral;
+  font-size: 14px;
+}
+.card button {
+  padding: 10px 30px;
+  border: none;
+  border-color: brown;
+  border-radius: 5px;
+  background-color: lightblue;
+  color: white;
+}
+.black{
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  box-shadow: 200px 0px black, 400px 0px black, 600px 0px black,
+  800px 0px black;
+}
+.card-container{
+  background-image: url("./Image/8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: -o-linear-gradient(45deg, rgb(255,0,0) 20%,
+  orange 60%,
+  lightcoral 90%);
+  background-image: -moz-linear-gradient(45deg, rgb(255,0,0) 20%,
+  orange 60%,
+  lightcoral 90%);
+  background-image:-webkit-linear-gradient(45deg, rgb(255,0,0) 20%,
+  orange 60%,
+  lightcoral 90%);
+}
